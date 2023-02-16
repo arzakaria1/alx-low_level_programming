@@ -1,8 +1,11 @@
 #include<stdio.h>
 #include<unistd.h>
 /**
-*main - A programme that displays a line to the standard erro
-*return: 0 (Success)
+* main - Entry point
+* 
+* Description: 'the program's description'
+* 
+* Return: Always 0 (Success)
 */
 int main(void)
 {
