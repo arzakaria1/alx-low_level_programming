@@ -1,12 +1,12 @@
 #include<stdio.h>
 /**
-* main -  a program that prints all different combinations of three digits.
+* main - a program that prints all different combinations of three digits.
 * Return: always (succes)
 */
 int main(void)
 {
 	int m, n, p;
-	
+
 	for (m = '0'; m < '9'; m++)
 	{
 	for (n = m + 1; n <= '9'; n++)
