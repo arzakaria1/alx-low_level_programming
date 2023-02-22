@@ -15,7 +15,7 @@ int main(void)
 	{
 	k += 1;
 	}
-	i++
+	i++;
 	}
 	printf("%d\n", k);
 	return (0);
