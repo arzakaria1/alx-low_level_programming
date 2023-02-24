@@ -2,7 +2,7 @@
 
 /**
  * print_square - a function that prints a square, followed by a new line
- * @n: number of characters to e drawn
+ * @size: number of sizes of square drwn
  * Return: always (success)
  */
 
