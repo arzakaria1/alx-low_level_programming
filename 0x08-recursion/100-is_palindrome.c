@@ -14,7 +14,7 @@ int is_palindrome(char *s)
 {
 	if (s == 0)
 		return (1);
-	return (pal_checker(s, 0, stelen_recursion(s)));
+	return (pal_checker(s, 0, strlen_recursion(s)));
 }
 
 /**
