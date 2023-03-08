@@ -21,3 +21,5 @@ int _prime(int n, int i);
 int pal_checker(char *s, int i, int length);
 
 int strlen_recursion(char *s);
+
+int wildcmp(char *s1, char *s2);
