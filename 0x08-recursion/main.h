@@ -17,3 +17,7 @@ int _putchar(char c);
 int actual_sqrt_recursion(int n, int i);
 
 int _prime(int n, int i);
+
+int pal_checker(char *s, int i, int length);
+
+int strlen_recursion(char *s);
