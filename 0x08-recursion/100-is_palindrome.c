@@ -40,9 +40,9 @@ int strlen_recursion(char *s)
 
 int pal_checker(char *s, int i, int length)
 {
-	if (*(s + 1) != *(s + length - 1))
+	if (*(s + i) != *(s + length - 1))
 		return (0);
 	if (i >= length)
 		return (1);
-	return (pal_checker(s, i = 1, length - 1));
+	return (pal_checker(s, i + 1, length - 1));
 }
